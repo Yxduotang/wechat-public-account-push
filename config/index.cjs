@@ -43,21 +43,8 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2019-01-31' },
-        // 结婚纪念日
       ],
     },
-  ],
-
-
-  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'LaOoTTzuIQEFcd_hi6jLOJEDLgDy0vkvEcp7rDarLkw',
-
-  CALLBACK_USERS: [
-    {
-      name: '自己',
-      // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'owbFF6uRatQ_tJZ1doZmaOVKq0zA',
-    }
   ],
 
 }
