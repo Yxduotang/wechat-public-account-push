@@ -4,22 +4,21 @@ const TEMPLATE_CONFIG = [
     id: '0001',
     title: '亲爱的, 早上好',
     desc: `
-      又是元气满满的一天 ૮ ・ﻌ・ა 
-{{first.DATA}} 
+又是元气满满的一天 ૮ ・ﻌ・ა 
+**{{date.DATA}}** 
 
-城市：{{keyword1.DATA}} 
-今天天气：{{keyword2.DATA}} 
-最低气温：{{keyword3.DATA}} 
-最高气温：{{keyword4.DATA}}
-舒适指数：{{keyword10.DATA}}
-穿衣指南：{{keyword9.DATA}}
+城市：{{city.DATA}} 
+天气：{{weather.DATA}} 
+气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}} 
+风向: {{wind_direction.DATA}} 
+风级: {{wind_scale.DATA}}
 
-今天是我们恋爱的第{{keyword5.DATA}}天
-距离宝宝的生日还有{{keyword6.DATA}}天
-距离我的生日还有{{keyword7.DATA}} 天
-
-每日寄言：{{keyword8.DATA}} 
-{{remark.DATA}}
+{{comprehensive_horoscope.DATA}} 
+--- 
+今天是我们相识的第{{love_day.DATA}}天 
+{{birthday_message.DATA}} 
+--- 
+{{moment_copyrighting.DATA}}
 ʕ•̫͡•ʔ•̫͡•ཻʕ•̫͡•ʔ•͓͡•ʔʕ•̫͡•ʔ•̫͡•ཻʕ•̫͡•ʔ•͓͡•ʔʕ•̫͡•ʔ•̫͡•ཻʕ•̫͡•ʔ
     `
   },
